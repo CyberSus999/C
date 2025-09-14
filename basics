@@ -1,0 +1,34 @@
+//comment
+VARIABLES
+int varname = 1; 
+char varname = "A"; single letter
+char varname[] = "a string"; ofcourse you can limit char num through the array if not assigned right away
+float varname = 1.0; // contains only 6/7 digit after decimal place
+double pi = 3.142; //contains more characters 16 i think
+bool varname =true/false;
+
+Undeclared variables cause undefined behaivior
+instead of int age;
+do int age  = 0; if u dont wanna assign it right away, '\0' for char(its a null terminator character),  '0.0f', 
+FORMAT SPECIFIERS
+you can add the width before every specifier eg %.2f, %2d
+%d - decimal, display integers
+%f / %lf - floats or long floats
+%c - single character
+%s - string
+
+USER INPUT
+
+printf("prompt)
+scanf(" %format specifier", &variable) //the space before %format specifier is important. it clears the input buffer , the newline buffer, only when delaing with single character
+// get inout with spaces
+getchar(); //clears new line character
+printf("prompt");
+fgets(varname, sizeof(varname), stdin);
+varname[strlen(varname) -1 ] = '\0' removes \n after submitting the input
+
+
+
+
+
+
