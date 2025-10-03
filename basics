@@ -7,7 +7,7 @@ float varname = 1.0; // contains only 6/7 digit after decimal place
 double pi = 3.142; //contains more characters 16 i think
 bool varname =true/false;
 
-Undeclared variables cause undefined behaivior
+Undeclared variables triggers compile errors(constraint violations)
 instead of int age;
 do int age  = 0; if u dont wanna assign it right away, '\0' for char(its a null terminator character),  '0.0f', 
 FORMAT SPECIFIERS
